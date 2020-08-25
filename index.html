@@ -421,7 +421,7 @@
                 style="max-width: 120px;"
               />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Alexa Smith</h5>
+                <h5 class="text-xl font-bold">Alex Smith</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                   UI/UX Designer
                 </p>
@@ -746,19 +746,7 @@
 <!-- Aos js -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <!-- Navigation Script -->
-<script>
-  function toggleNavbar(collapseID) {
-    document.getElementById(collapseID).classList.toggle("hidden");
-    document.getElementById(collapseID).classList.toggle("block");
-  }
-  AOS.init({
-    delay: 200, // values from 0 to 3000, with step 50ms
-  duration: 1500, // values from 0 to 3000, with step 50ms
-  easing: 'ease', // default easing for AOS animations
-  once: false, // whether animation should happen only once - while scrolling down
-  mirror: false, // whether elements should animate out while scrolling past them
-  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-  });
-</script>
+<script src="nav.js"></script>
+<script src="aos.js"></script>
 
 </html>
